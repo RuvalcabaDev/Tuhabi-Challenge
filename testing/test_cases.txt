@@ -1,0 +1,13 @@
+Casos de prueba (backend) para el microservicio findProperties.
+
+1.- El microservicio findProperties debe poder mostrar los inmuebles con status pre-venta, en venta y vendido (3, 4 y 5).
+
+2.- El microservicio findProperties debe ignorar (no mostrar), los inmuebles que cuenten con un status diferente a pre-venta, en venta y vendido (1, 2 y 6).
+
+3.- El microservicio findProperties debe mostrar siempre la información del inmueble, tal como dirección, ciudad, precio de venta y descripción.
+
+4.- El microservicio findProperties debe poder devolver información filtrada por año de construcción.
+
+5.- El microservicio findProperties debe poder devolver información filtrada por ciudad.
+
+6.- El microservicio findProperties debe poder devolver información filtrada por año de construcción y ciudad.
